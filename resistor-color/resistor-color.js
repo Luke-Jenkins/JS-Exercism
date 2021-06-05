@@ -6,9 +6,8 @@
 var mnemonic = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
 
 export const colorCode = (color) => {
-  color  = color.toLowerCase();
   function checkColor (resistor) {
-    return resistor = color;
+    return resistor == color;
   }
   return mnemonic.findIndex(checkColor);
   
