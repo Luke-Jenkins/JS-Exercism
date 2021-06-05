@@ -3,8 +3,15 @@
 // convenience to get you started writing code faster.
 //
 
-export const colorCode = () => {
-  throw new Error('Remove this statement and implement this function');
+var mnemonic = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
+
+export const colorCode = (color) => {
+  color  = color.toLowerCase();
+  function checkColor (resistor) {
+    return resistor = color;
+  }
+  return mnemonic.findIndex(checkColor);
+  
 };
 
 export const COLORS = undefined;
