@@ -9,8 +9,8 @@ export const colorCode = (color) => {
   function checkColor (band) {
     return band == color;
   }
-  return mnemonic.findIndex(checkColor);
+  return bands.findIndex(checkColor);
   
 };
 
-export const COLORS = mnemonic;
+export const COLORS = bands;
