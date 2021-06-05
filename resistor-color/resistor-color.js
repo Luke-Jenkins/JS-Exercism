@@ -3,11 +3,11 @@
 // convenience to get you started writing code faster.
 //
 
-var mnemonic = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
+var bands = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
 
 export const colorCode = (color) => {
-  function checkColor (resistor) {
-    return resistor == color;
+  function checkColor (band) {
+    return band == color;
   }
   return mnemonic.findIndex(checkColor);
   
