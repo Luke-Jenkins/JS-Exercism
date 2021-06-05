@@ -13,4 +13,4 @@ export const colorCode = (color) => {
   
 };
 
-export const COLORS = undefined;
+export const COLORS = mnemonic;
