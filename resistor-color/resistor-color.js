@@ -3,14 +3,13 @@
 // convenience to get you started writing code faster.
 //
 
-var bands = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
+export const COLORS = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
 
-export const colorCode = (color) => {
-  function checkColor (band) {
-    return band == color;
-  }
-  return bands.findIndex(checkColor);
-  
-};
+export const colorCode = (color) => COLORS.indexOf(color);
 
-export const COLORS = bands;
+// Example of how arrow function works
+// const colorCode = function(color) {
+//     return COLORS.indexOf(color);
+// }
+
+export default colorCode;
